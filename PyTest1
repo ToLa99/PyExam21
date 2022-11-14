@@ -1,0 +1,7 @@
+from math import sqrt
+
+def calc_sqrt(tall):
+  return(sqrt(tall))
+  
+a = int(input("Angi et tall det skal beregnes kvadratroten av: "))
+print(calc_sqrt(a))
